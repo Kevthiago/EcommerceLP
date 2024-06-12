@@ -32,7 +32,7 @@ public class TelaPagamento extends JFrame {
     public TelaPagamento() {
         this.setTitle("Pagamento");
         this.setSize(400, 500);
-        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
 
@@ -58,8 +58,8 @@ public class TelaPagamento extends JFrame {
         voltar = new JButton();
         linha1 = new JSeparator();
         linha2 = new JSeparator();
-        quantidade = new JLabel("TESTE");
-        valor = new JLabel("valorteste");
+        quantidade = new JLabel(CarrinhoDeCompras.quantidadeTotalItens());
+        valor = new JLabel(CarrinhoDeCompras.valorTotalCompra());
         titulo = new JLabel("Tela de pagamento", SwingConstants.CENTER);
     }
 
@@ -101,13 +101,13 @@ public class TelaPagamento extends JFrame {
         textOpcoes.setBounds(20, 188, 250, 30);
 
         valor.setFont(new Font("Arial", Font.BOLD, 14));
-        valor.setBounds(149, 131, 100, 30);
+        valor.setBounds(30, 131, 300, 30);
         valor.setForeground(Color.BLACK);
         valor.setBackground(Color.WHITE);
         valor.setEnabled(false);
 
         quantidade.setFont(new Font("Arial", Font.BOLD, 14));
-        quantidade.setBounds(149, 51, 100, 30);
+        quantidade.setBounds(30, 51, 300, 30);
         quantidade.setForeground(Color.BLACK);
         quantidade.setBackground(Color.WHITE);
         quantidade.setEnabled(false);

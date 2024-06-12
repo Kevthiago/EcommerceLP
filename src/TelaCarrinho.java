@@ -82,6 +82,7 @@ public class TelaCarrinho extends JFrame {
         removerCarrinho();
         valorTotal();
         voltarBotao();
+        finalizarPedido();
     }
 
     // 10.4 Percorre array e imprime
@@ -106,7 +107,7 @@ public class TelaCarrinho extends JFrame {
 
     // 10.6 muda valor total
     public void valorTotal(){
-        texto4TP.setText(CarrinhoDeCompras.valorTotalCompra());
+        texto4TP.setText(CarrinhoDeCompras.valorTotalCompra() + " " + CarrinhoDeCompras.quantidadeTotalItens());
     }
 
     // 10.7 botao voltar
@@ -115,6 +116,18 @@ public class TelaCarrinho extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();
+            }
+        });
+    }
+
+    public void finalizarPedido(){
+        botaoFinalizar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                TelaPagamento pagamento = new TelaPagamento(); // Instancia nova tela
+                pagamento.setVisible(true); // Torna a nova janela visível
+
+                dispose(); // Fecha a janela do carrinho
             }
         });
     }

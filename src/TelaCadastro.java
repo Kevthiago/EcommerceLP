@@ -16,9 +16,7 @@ public class TelaCadastro extends JFrame {
     private JLabel labelSenha = new JLabel("Senha:");
     private JTextField textSenha = new JTextField();
     private JLabel labelTelefone = new JLabel("Telefone:");
-    private JFormattedTextField textTelefone;
     private JLabel labelCPF = new JLabel("CPF:");
-    private JFormattedTextField textCPF;
     private JLabel labelCidadeEstado = new JLabel("Cidade/Estado:");
     private JTextField textCidadeEstado = new JTextField();
     private JLabel labelPais = new JLabel("País:");
@@ -26,9 +24,12 @@ public class TelaCadastro extends JFrame {
     private JLabel labelRuaNumero = new JLabel("Rua/Número:");
     private JTextField textRuaNumero = new JTextField();
     private JLabel labelCEP = new JLabel("CEP:");
-    private JFormattedTextField textCEP;
     private JButton buttonCadastrar = new JButton("CADASTRAR");
     private JButton buttonCancelar = new JButton("CANCELAR");
+
+    private JFormattedTextField textTelefone;
+    private JFormattedTextField textCPF;
+    private JFormattedTextField textCEP;
 
     /**
      * Construtor da classe.
@@ -62,12 +63,13 @@ public class TelaCadastro extends JFrame {
         configurarLabel(labelSenha, 20, 140);
         configurarLabel(labelTelefone, 20, 180);
         configurarLabel(labelCPF, 20, 220);
-        configurarFormattedTextField("(##) #####-####", 180, 180); // Formatação do Telefone
-        configurarFormattedTextField("###.###.###-##", 180, 220); // Formatação do CPF
         configurarLabel(labelCidadeEstado, 20, 260);
         configurarLabel(labelRuaNumero, 20, 300);
         configurarLabel(labelPais, 20, 340);
         configurarLabel(labelCEP, 20, 380);
+
+        configurarFormattedTextField("(##) #####-####", 180, 180); // Formatação do Telefone
+        configurarFormattedTextField("###.###.###-##", 180, 220); // Formatação do CPF
         configurarFormattedTextField("#####-###", 180, 380); // Formatação do CEP
     }
 

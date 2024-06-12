@@ -175,6 +175,8 @@ public class TelaLogin extends JFrame {
                 // Login válido!
                 JOptionPane.showMessageDialog(null, "Login realizado com sucesso!");
                 // Direciona para a próxima tela
+                TelaPrincipal telaPrincipal = new TelaPrincipal(); // Instancia a nova tela
+                telaPrincipal.setVisible(true); // Torna a nova tela visível
                 //Fecha a tela de login
                 dispose();
             } else {

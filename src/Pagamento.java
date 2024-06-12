@@ -38,6 +38,8 @@ public class Pagamento {
         this.statusPagamento = statusPagamento;
     }
 
+
+
     // Outros métodos
     public void efetuarPagamento() {
         // Lógica de processamento do pagamento

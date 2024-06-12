@@ -65,7 +65,7 @@ public class TelaPrincipal extends JFrame {
     // 3) Construtor
     public TelaPrincipal(){
         // Config do painel principal
-        this.setTitle("Nome_Exemplo");
+        this.setTitle("Produtos");
         this.setSize(800,720);
         this.getContentPane().add(painel);
         this.setLocationRelativeTo(null);

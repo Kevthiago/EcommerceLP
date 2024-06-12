@@ -53,17 +53,36 @@ public class CarrinhoDeCompras {
             return itens;
         }
 
-        // imprimir valor total da compra
-        public static String valorTotalCompra(){
-            double precoTotal = 0;
-            int quantidadeTotal =0;
-            for (ItemCarrinho i : instance.itens){
-                precoTotal += i.getPrecoTotal();
-                quantidadeTotal += i.getQuantidade();
+
+        // Método para mostrar o valor total da compra
+        public static String valorTotalCompra() {
+            if (CarrinhoDeCompras.getInstance() == null){
+                JOptionPane.showMessageDialog(null, "Carrinho vazio!");
+            } else {
+                double precoTotal = 0;
+                for (ItemCarrinho i : instance.itens) {
+                    precoTotal += i.getPrecoTotal();
+                }
+                return "Valor Total: " + String.format("%.2f", precoTotal);
             }
-            return "Valor Total: "+ String.format("%.2f",precoTotal)+"; Quantidade total de itens: "+quantidadeTotal;
+            return null;
         }
 
+        // Método para mostrar a quantidade total de itens
+        public static String quantidadeTotalItens() {
+            if (CarrinhoDeCompras.getInstance() == null){
+                JOptionPane.showMessageDialog(null, "Carrinho vazio!");
+            } else {
+                int quantidadeTotal = 0;
+                for (ItemCarrinho i : instance.itens) {
+                    quantidadeTotal += i.getQuantidade();
+                }
+                return "Quantidade total de itens: " + quantidadeTotal;
+            }
+            return null;
+         }
 
-    }
+
+
+}
 
