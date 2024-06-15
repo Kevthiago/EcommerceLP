@@ -65,5 +65,5 @@ Aqui você pode adicionar imagens, vídeos ou GIFs demonstrando o funcionamento 
 
 ## Licença
 
-Este projeto está licenciado sob a [Nome da Licença]. Consulte o arquivo `LICENSE` para mais informações.
+Este projeto está licenciado sob a MIT License. Consulte o arquivo `LICENSE` para mais informações.
 
