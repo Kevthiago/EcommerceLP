@@ -4,6 +4,19 @@
     <img src="src/img/logo.png" alt="Logo">
 </div>
 
+## Sumário
+
+1. [Informações sobre o Projeto](#informações-sobre-o-projeto)
+2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+3. [Pré-requisitos](#pré-requisitos)
+4. [Como Utilizar](#como-utilizar)
+5. [Código SQL](#código-sql)
+6. [Imagens, Vídeos ou GIFs](#imagens-vídeos-ou-gifs)
+7. [Desenvolvedores](#desenvolvedores)
+8. [Futuras Melhorias](#futuras-melhorias)
+9. [Licença](#licença)
+
+---
 
 ## Informações sobre o Projeto
 
@@ -12,7 +25,7 @@ Este projeto é uma aplicação desktop desenvolvida para ser utilizada como um 
 ## Tecnologias Utilizadas
 
 - IDEA - `IntelliJ`
-- Java JDK - `versão versão do JDK`
+- Java JDK - `versão do JDK`
 - Interface gráfica - `Swing`
 - Banco de dados - `SQLite`
 
@@ -43,6 +56,9 @@ Siga os passos abaixo para configurar e executar o projeto:
 3. Instale as dependências:
     - No IntelliJ IDEA, adicione a biblioteca `sqlite-jdbc-3.42.0.0.jar` à estrutura do projeto.
     - Instale o banco de dados `SQLite` para configurar a conexão.
+    - Sentença utilizada para criar a tabela:
+
+     ![Script SQL](src/img/img.png)
 
 4. Execute a aplicação:
     - No IntelliJ IDEA, localize o arquivo principal da aplicação `TelaLogin.java`.
@@ -52,7 +68,6 @@ Siga os passos abaixo para configurar e executar o projeto:
 
 5. Acesse a aplicação:
     - A aplicação desktop deve abrir automaticamente. Siga as instruções na tela para começar a usar a aplicação.
-
 
 ## Imagens, Vídeos ou GIFs
 
