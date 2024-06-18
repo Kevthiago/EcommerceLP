@@ -2,42 +2,52 @@
 
 ## Informações sobre o Projeto
 
-Este projeto é uma aplicação web desenvolvida para [propósito do projeto, por exemplo, ajudar na gestão de tarefas, ensinar programação, etc.]. Ele foi criado para [descreva brevemente o que ele faz e para quem é destinado].
+Este projeto é uma aplicação desktop desenvolvida para ser utilizada como um sistema de vendas de um restaurante. Ele foi criado para cadastrar clientes, permitir login, escolher produtos da vitrine e adicioná-los ao carrinho (ou removê-los), e realizar o pagamento do pedido.
 
 ## Tecnologias Utilizadas
 
-- Java JDK versão [versão do JDK]
-- [Outras tecnologias ou frameworks utilizados, por exemplo, Spring Boot, Hibernate, etc.]
-- [Bancos de dados, por exemplo, MySQL, MongoDB, etc.]
-- [Ferramentas adicionais, por exemplo, Docker, Jenkins, etc.]
+- IDEA - `IntelliJ`
+- Java JDK - `versão versão do JDK`
+- Interface gráfica - `Swing`
+- Banco de dados - `SQLite`
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
-- [Nome e versão da ferramenta, por exemplo, JDK 11+]
-- [Outras dependências necessárias, por exemplo, Maven, Node.js, etc.]
+- IDEA `IntelliJ`
+- Banco de Dados `SQLite`
+- Biblioteca `sqlite-jdbc-3.42.0.0.jar`
 
 ## Como Utilizar
 
 Siga os passos abaixo para configurar e executar o projeto:
 
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    ```
-2. Navegue até o diretório do projeto:
-    ```bash
-    cd seu-repositorio
-    ```
+1. Clone o repositório usando o GitHub Desktop:
+    - Abra o GitHub Desktop.
+    - Vá em `File` > `Clone repository`.
+    - Insira o URL do repositório: `https://github.com/Kevthiago/EcommerceLP`.
+    - Escolha o local onde deseja clonar o repositório e clique em `Clone`.
+
+2. Abra o projeto no IntelliJ IDEA:
+    - Abra o IntelliJ IDEA.
+    - Vá em `File` > `Open...`.
+    - Navegue até o diretório onde você clonou o repositório e selecione a pasta do projeto.
+    - Clique em `OK` para abrir o projeto.
+
 3. Instale as dependências:
-    ```bash
-    mvn install
-    ```
+    - No IntelliJ IDEA, adicione a biblioteca `sqlite-jdbc-3.42.0.0.jar` à estrutura do projeto.
+    - Instale o banco de dados `SQLite` para configurar a conexão.
+
 4. Execute a aplicação:
-    ```bash
-    mvn spring-boot:run
-    ```
+    - No IntelliJ IDEA, localize o arquivo principal da aplicação `TelaLogin.java`.
+    - Clique com o botão direito na classe principal e selecione `Run 'TelaLogin.main()'`.
+    - Aguarde até que a aplicação inicie completamente.
+    - Obs: cada tela pode ser executada separadamente, mas recomenda-se iniciar pela `TelaLogin` para uma melhor experiência.
+
+5. Acesse a aplicação:
+    - A aplicação desktop deve abrir automaticamente. Siga as instruções na tela para começar a usar a aplicação.
+
 
 ## Imagens, Vídeos ou GIFs
 
@@ -58,8 +68,8 @@ Siga os passos abaixo para configurar e executar o projeto:
 
 ## Desenvolvedores
 
-- **Nome do Desenvolvedor 1**
-    - GitHub: [github.com/nome1](https://github.com/nome1)
+- **Kevin Thiago dos Santos**
+    - GitHub: 'https://github.com/Kevthiago'
     - LinkedIn: [linkedin.com/in/nome1](https://linkedin.com/in/nome1)
 
 - **Nome do Desenvolvedor 2**
