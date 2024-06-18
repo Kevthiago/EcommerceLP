@@ -2,7 +2,7 @@
 
 ## Informações sobre o Projeto
 
-Este projeto é um [tipo de projeto, por exemplo, aplicação web, biblioteca, etc.] desenvolvido para [propósito do projeto, por exemplo, ajudar na gestão de tarefas, ensinar programação, etc.]. Ele foi criado para [descreva brevemente o que ele faz e para quem é destinado].
+Este projeto é uma aplicação web desenvolvida para [propósito do projeto, por exemplo, ajudar na gestão de tarefas, ensinar programação, etc.]. Ele foi criado para [descreva brevemente o que ele faz e para quem é destinado].
 
 ## Tecnologias Utilizadas
 
@@ -41,10 +41,20 @@ Siga os passos abaixo para configurar e executar o projeto:
 
 ## Imagens, Vídeos ou GIFs
 
-Aqui você pode adicionar imagens, vídeos ou GIFs demonstrando o funcionamento do seu projeto:
+### Tela de Login/Cadastro
+![Tela de Login/Cadastro](link-para-imagem-login)
 
-![Imagem do Projeto](link-para-imagem)
-![GIF do Projeto](link-para-gif)
+### Tela de Vitrine de Produtos
+![Tela de Vitrine de Produtos](link-para-imagem-vitrine)
+
+### Tela de Carrinho
+![Tela de Carrinho](link-para-imagem-carrinho)
+
+### Tela de Pagamentos
+![Tela de Pagamentos](link-para-imagem-pagamentos)
+
+### Demonstração em GIF
+![GIF do Programa](link-para-gif)
 
 ## Desenvolvedores
 
@@ -66,4 +76,3 @@ Aqui você pode adicionar imagens, vídeos ou GIFs demonstrando o funcionamento 
 ## Licença
 
 Este projeto está licenciado sob a MIT License. Consulte o arquivo `LICENSE` para mais informações.
-
