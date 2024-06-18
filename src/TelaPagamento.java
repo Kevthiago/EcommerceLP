@@ -243,6 +243,8 @@ public class TelaPagamento extends JFrame {
                 String status = pagamento.getStatusPagamento();
                 if (status.equals("aprovado")) {
                     JOptionPane.showMessageDialog(TelaPagamento.this, "Pagamento finalizado com sucesso!");
+                    CarrinhoDeCompras.zerarCarrinho(); // zera carrinho de compras
+                    setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); // fecha janela
                 } else if (status.equals("pendente")) {
                     JOptionPane.showMessageDialog(TelaPagamento.this, "Pagamento pendente. Aguarde a confirmação.");
                 } else {

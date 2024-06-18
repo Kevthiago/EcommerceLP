@@ -30,8 +30,9 @@ public class TelaCarrinho extends JFrame {
         setVisible(true);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
+
         // métodos:
-        adicionarComponentes(); percorrerCarrinho();
+        adicionarComponentes(); percorrerCarrinho(); carrinhoVazio();
     }
 
     // 10.3 adicionar e configurar posições dos componentes
@@ -71,6 +72,8 @@ public class TelaCarrinho extends JFrame {
         botaoVoltar.setBounds(60, 365, 110,25);
         add(botaoFinalizar);
         botaoFinalizar.setBounds(220, 365, 200,25);
+        botaoFinalizar.setEnabled(false);
+
 
         // config JTextArea e JScrollPane
         areaTextoCarrinho.setEditable(false);
@@ -120,6 +123,7 @@ public class TelaCarrinho extends JFrame {
         });
     }
 
+    // 10.8 abre nova tela de pagamento
     public void finalizarPedido(){
         botaoFinalizar.addActionListener(new ActionListener() {
             @Override
@@ -131,5 +135,15 @@ public class TelaCarrinho extends JFrame {
             }
         });
     }
+
+    // 10.9 condição para que não consigar ir para tela de pagamento com o carrinho vazio
+    public void carrinhoVazio(){
+        if (CarrinhoDeCompras.getQuantidadeTotal()== 0){
+            botaoFinalizar.setEnabled(false);
+        } else if (CarrinhoDeCompras.getQuantidadeTotal()>0) {
+            botaoFinalizar.setEnabled(true);
+        }
+    }
+
 
 }

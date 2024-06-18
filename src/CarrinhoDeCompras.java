@@ -6,6 +6,7 @@ public class CarrinhoDeCompras {
         // atributos
         private static CarrinhoDeCompras instance;
         private ArrayList<ItemCarrinho> itens;
+        static int quantidadeTotal;
 
         // construtor
         private CarrinhoDeCompras() {
@@ -73,7 +74,7 @@ public class CarrinhoDeCompras {
             if (CarrinhoDeCompras.getInstance() == null){
                 JOptionPane.showMessageDialog(null, "Carrinho vazio!");
             } else {
-                int quantidadeTotal = 0;
+                quantidadeTotal = 0;
                 for (ItemCarrinho i : instance.itens) {
                     quantidadeTotal += i.getQuantidade();
                 }
@@ -82,6 +83,18 @@ public class CarrinhoDeCompras {
             return null;
          }
 
+        public static int getQuantidadeTotal() {
+            for (ItemCarrinho i : instance.itens) {
+                quantidadeTotal += i.getQuantidade();
+            }
+            return quantidadeTotal;
+        }
+
+        public static void zerarCarrinho(){
+            for(ItemCarrinho i : getInstance().itens){
+                CarrinhoDeCompras.getInstance().itens.remove(i);
+            }
+        }
 
 
 }
