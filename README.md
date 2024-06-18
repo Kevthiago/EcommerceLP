@@ -83,10 +83,10 @@ Siga os passos abaixo para configurar e executar o projeto:
 
 ## Futuras Melhorias
 
-- [ ] Adicionar novas funcionalidades, como [descrição da funcionalidade]
-- [ ] Melhorar a performance da aplicação em [parte específica]
-- [ ] Corrigir bugs relacionados a [descrição do bug]
-- [ ] Implementar testes automatizados para [parte específica]
+- [ ] Adicionar novas funcionalidades, como `botões para remover item do carrinho` sem precisar do código e `cálculo para taxa de entrega`.
+- [ ] Melhorar a performance da aplicação em `usabilidade`, `segurança`, `design`, `conexão com banco de dados` e `cadastro/login de usuário`.
+- [ ] Corrigir bugs relacionados à `conexão com banco de dados` e aos `dados do cliente no cadastro`.
+- [ ] Implementar testes automatizados para `detectar bugs` e `pontos a melhorar`.
 
 ## Licença
 
