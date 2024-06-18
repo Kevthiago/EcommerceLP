@@ -10,11 +10,10 @@
 2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
 3. [Pré-requisitos](#pré-requisitos)
 4. [Como Utilizar](#como-utilizar)
-5. [Código SQL](#código-sql)
-6. [Imagens, Vídeos ou GIFs](#imagens-vídeos-ou-gifs)
-7. [Desenvolvedores](#desenvolvedores)
-8. [Futuras Melhorias](#futuras-melhorias)
-9. [Licença](#licença)
+5. [Imagens, Vídeos ou GIFs](#imagens-vídeos-ou-gifs)
+6. [Desenvolvedores](#desenvolvedores)
+7. [Futuras Melhorias](#futuras-melhorias)
+8. [Licença](#licença)
 
 ---
 
