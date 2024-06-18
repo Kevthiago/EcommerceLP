@@ -91,9 +91,8 @@ public class CarrinhoDeCompras {
         }
 
         public static void zerarCarrinho(){
-            for(ItemCarrinho i : getInstance().itens){
-                CarrinhoDeCompras.getInstance().itens.remove(i);
-            }
+            getInstance().itens.clear();
+
         }
 
 
