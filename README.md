@@ -71,6 +71,11 @@ Siga os passos abaixo para configurar e executar o projeto:
 ## Imagens, Vídeos ou GIFs
 
 ### Tela de Login/Cadastro
+#### Tela de Cadastro
+![Vídeo sem título ‐ Feito com o Clipchamp](https://github.com/Kevthiago/EcommerceLP/assets/145061688/a5a836ca-7ff4-4e1c-99ff-35837d27259a)
+#### Tela de Login
+![Vídeo-sem-título-‐-Feito-com-o-Clipchamp-_1_](https://github.com/Kevthiago/EcommerceLP/assets/145061688/68c720ff-e9d0-4465-9683-f8a24b92ce64)
+
 ![Tela de Login/Cadastro](link-para-imagem-login)
 
 ### Tela de Vitrine de Produtos
