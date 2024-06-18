@@ -46,7 +46,7 @@ public class TelaPrincipal extends JFrame {
     // 2) Inicicializando componentes painel principal
     private JPanel painel = new JPanel();
     private JComboBox<String> categoria = new JComboBox<>();
-    private JLabel texto1 = new JLabel("Restaurante X FastFood(X)");
+    private JLabel texto1 = new JLabel("JAVA EATS");
     private JLabel texto2 = new JLabel("Pizzas");
     private JLabel texto3 = new JLabel("Hambúrgueres");
     private JLabel texto4 = new JLabel("Bebidas");
@@ -114,13 +114,13 @@ public class TelaPrincipal extends JFrame {
         JLimg1.setBounds(20, 500, 200, 130); // bebidas
         JLimg3.setBounds(270, 500, 200, 130);
         JLimg10.setBounds(525, 500, 200, 130);
-        JLimg7.setBounds(0,-35, 150,150); // logo
+        JLimg7.setBounds(0,0, 200,86); // logo
     }
 
     // 5.2 Config ComboBox (Categoria)
     private void configurarComboBox(){
         texto5.setFont(new Font("Arial", Font.BOLD, 16));
-        texto5.setBounds(200, 60, 110, 30);
+        texto5.setBounds(205, 60, 110, 30);
         categoria.setFont(new Font("Arial", Font.PLAIN, 16));
         categoria.setBounds(290, 60, 140, 30);
         categoria.addItem("Todos"); categoria.addItem("Bebidas");

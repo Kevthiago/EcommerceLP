@@ -8,7 +8,7 @@ import java.awt.event.KeyEvent;
 // --------- 10) PAINEL CARRINHO DE COMPRAS ---------
 public class TelaCarrinho extends JFrame {
     // 10.1 componentes básicos da painel
-    private JLabel texto1TP = new JLabel("Nome da loja XX");
+    private JLabel texto1TP = new JLabel("JAVA EATS");
     private JLabel texto2TP = new JLabel("Seu carrinho de Compras:");
     private JLabel texto3TP = new JLabel("Remover pedido de Número:");
     private JLabel texto4TP = new JLabel("Valor Total: ");
