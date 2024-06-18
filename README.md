@@ -1,6 +1,9 @@
-# JAVA EATS
+# <p align="center">JAVA EATS</p>
 
-![Logo do Projeto](src/img/logo.png)
+<div style="text-align:center;">
+    <img src="src/img/logo.png" alt="Logo">
+</div>
+
 
 ## Informações sobre o Projeto
 
