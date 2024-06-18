@@ -1,4 +1,6 @@
-# Título do Projeto
+# JAVA EATS
+
+![Logo do Projeto](src/img/logo.png)
 
 ## Informações sobre o Projeto
 
@@ -69,12 +71,12 @@ Siga os passos abaixo para configurar e executar o projeto:
 ## Desenvolvedores
 
 - **Kevin Thiago dos Santos**
-    - GitHub: 'https://github.com/Kevthiago'
-    - LinkedIn: [linkedin.com/in/nome1](https://linkedin.com/in/nome1)
+    - GitHub: `https://github.com/Kevthiago`
+    - LinkedIn: `https://www.linkedin.com/in/kevin-thiago-15577520b/`
 
-- **Nome do Desenvolvedor 2**
-    - GitHub: [github.com/nome2](https://github.com/nome2)
-    - LinkedIn: [linkedin.com/in/nome2](https://linkedin.com/in/nome2)
+- **Ana Cristina Gonçalvez Siqueira**
+    - GitHub: `https://github.com/anacristinags`
+    - LinkedIn: `https://www.linkedin.com/in/ana-cristina-g-97122b242/`
 
 ## Futuras Melhorias
 
