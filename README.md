@@ -76,16 +76,18 @@ Siga os passos abaixo para configurar e executar o projeto:
 #### Tela de Login
 ![Vídeo-sem-título-‐-Feito-com-o-Clipchamp-_1_](https://github.com/Kevthiago/EcommerceLP/assets/145061688/68c720ff-e9d0-4465-9683-f8a24b92ce64)
 
-![Tela de Login/Cadastro](link-para-imagem-login)
 
 ### Tela de Vitrine de Produtos
-![Tela de Vitrine de Produtos](link-para-imagem-vitrine)
+![Vídeo sem título ‐ Feito com o Clipchamp (2)](https://github.com/Kevthiago/EcommerceLP/assets/145061688/af735cc4-77a6-45d6-8d44-ba4cca0e7b29)
+
 
 ### Tela de Carrinho
-![Tela de Carrinho](link-para-imagem-carrinho)
+![Vídeo sem título ‐ Feito com o Clipchamp (3)](https://github.com/Kevthiago/EcommerceLP/assets/145061688/d68c842d-7a53-4197-9847-6c8589ef91f4)
+
 
 ### Tela de Pagamentos
-![Tela de Pagamentos](link-para-imagem-pagamentos)
+![Vídeo sem título ‐ Feito com o Clipchamp (4)](https://github.com/Kevthiago/EcommerceLP/assets/145061688/15245547-fac9-4013-be9c-fead11d49462)
+
 
 ### Demonstração em GIF
 ![GIF do Programa](link-para-gif)
