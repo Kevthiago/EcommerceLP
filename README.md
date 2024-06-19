@@ -1,8 +1,6 @@
 # <p align="center">JAVA EATS</p>
 
-<div style="text-align:center;">
-    <img src="src/img/logo.png" alt="Logo">
-</div>
+# <p align="center"><img src="src/img/logo.png" alt="Logo"></p>
 
 ## Sumário
 
