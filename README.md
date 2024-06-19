@@ -69,27 +69,29 @@ Siga os passos abaixo para configurar e executar o projeto:
     - A aplicação desktop deve abrir automaticamente. Siga as instruções na tela para começar a usar a aplicação.
 
 ## Imagens, Vídeos ou GIFs
-
+> Observação: os GIFs estão acelerados. Ao final da sessão, há um vídeo demonstrando o projeto completo de forma mais detalhada.
 ### Tela de Login/Cadastro
 #### Tela de Cadastro
-![Vídeo sem título ‐ Feito com o Clipchamp](https://github.com/Kevthiago/EcommerceLP/assets/145061688/a5a836ca-7ff4-4e1c-99ff-35837d27259a)
-#### Tela de Login
-![Vídeo-sem-título-‐-Feito-com-o-Clipchamp-_1_](https://github.com/Kevthiago/EcommerceLP/assets/145061688/68c720ff-e9d0-4465-9683-f8a24b92ce64)
+<div align="center"> <img src="https://github.com/Kevthiago/EcommerceLP/assets/145061688/a5a836ca-7ff4-4e1c-99ff-35837d27259a" width="700px" />
+ </div> 
 
+#### Tela de Login
+<div align="center"> <img src="https://github.com/Kevthiago/EcommerceLP/assets/145061688/68c720ff-e9d0-4465-9683-f8a24b92ce64" width="700px" />
+ </div> 
 
 ### Tela de Vitrine de Produtos
-![Vídeo sem título ‐ Feito com o Clipchamp (2)](https://github.com/Kevthiago/EcommerceLP/assets/145061688/af735cc4-77a6-45d6-8d44-ba4cca0e7b29)
-
+<div align="center"> <img src="https://github.com/Kevthiago/EcommerceLP/assets/145061688/af735cc4-77a6-45d6-8d44-ba4cca0e7b29" width="700px" />
+ </div> 
 
 ### Tela de Carrinho
-![Vídeo sem título ‐ Feito com o Clipchamp (3)](https://github.com/Kevthiago/EcommerceLP/assets/145061688/d68c842d-7a53-4197-9847-6c8589ef91f4)
-
+<div align="center"> <img src="https://github.com/Kevthiago/EcommerceLP/assets/145061688/d68c842d-7a53-4197-9847-6c8589ef91f4" width="700px" />
+ </div> 
 
 ### Tela de Pagamentos
-![Vídeo sem título ‐ Feito com o Clipchamp (4)](https://github.com/Kevthiago/EcommerceLP/assets/145061688/15245547-fac9-4013-be9c-fead11d49462)
+<div align="center"> <img src="https://github.com/Kevthiago/EcommerceLP/assets/145061688/15245547-fac9-4013-be9c-fead11d49462" width="700px" />
+ </div> 
 
-
-### Demonstração em GIF
+### Demonstração em Vídeo: 
 ![GIF do Programa](link-para-gif)
 
 ## Desenvolvedores
