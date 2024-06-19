@@ -69,21 +69,31 @@ Siga os passos abaixo para configurar e executar o projeto:
     - A aplicação desktop deve abrir automaticamente. Siga as instruções na tela para começar a usar a aplicação.
 
 ## Imagens, Vídeos ou GIFs
-
+> Observação: os GIFs estão acelerados. Ao final da sessão, há um vídeo demonstrando o projeto completo de forma mais detalhada.
 ### Tela de Login/Cadastro
-![Tela de Login/Cadastro](link-para-imagem-login)
+#### Tela de Cadastro
+<div align="center"> <img src="https://github.com/Kevthiago/EcommerceLP/assets/145061688/a5a836ca-7ff4-4e1c-99ff-35837d27259a" width="700px" />
+ </div> 
+
+#### Tela de Login
+<div align="center"> <img src="https://github.com/Kevthiago/EcommerceLP/assets/145061688/68c720ff-e9d0-4465-9683-f8a24b92ce64" width="700px" />
+ </div> 
 
 ### Tela de Vitrine de Produtos
-![Tela de Vitrine de Produtos](link-para-imagem-vitrine)
+<div align="center"> <img src="https://github.com/Kevthiago/EcommerceLP/assets/145061688/af735cc4-77a6-45d6-8d44-ba4cca0e7b29" width="700px" />
+ </div> 
 
 ### Tela de Carrinho
-![Tela de Carrinho](link-para-imagem-carrinho)
+<div align="center"> <img src="https://github.com/Kevthiago/EcommerceLP/assets/145061688/d68c842d-7a53-4197-9847-6c8589ef91f4" width="700px" />
+ </div> 
 
 ### Tela de Pagamentos
-![Tela de Pagamentos](link-para-imagem-pagamentos)
+<div align="center"> <img src="https://github.com/Kevthiago/EcommerceLP/assets/145061688/15245547-fac9-4013-be9c-fead11d49462" width="700px" />
+ </div> 
 
-### Demonstração em GIF
-![GIF do Programa](link-para-gif)
+### Demonstração em Vídeo: 
+
+ https://github.com/Kevthiago/EcommerceLP/assets/145061688/3f1efe3f-8219-4954-8ddd-2d0618851f1d 
 
 ## Desenvolvedores
 
