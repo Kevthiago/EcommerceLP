@@ -92,7 +92,8 @@ Siga os passos abaixo para configurar e executar o projeto:
  </div> 
 
 ### Demonstração em Vídeo: 
-![GIF do Programa](link-para-gif)
+
+ https://github.com/Kevthiago/EcommerceLP/assets/145061688/3f1efe3f-8219-4954-8ddd-2d0618851f1d 
 
 ## Desenvolvedores
 
