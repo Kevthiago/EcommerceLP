@@ -57,6 +57,10 @@ Siga os passos abaixo para configurar e executar o projeto:
 
      ![Script SQL](src/img/img.png)
 
+      - Diagrama de Classes representando a tabela no Banco de Dados:
+      
+      ![Diagrama de Classes](src/img/ClassDiagram.png)
+
 4. Execute a aplicação:
     - No IntelliJ IDEA, localize o arquivo principal da aplicação `TelaLogin.java`.
     - Clique com o botão direito na classe principal e selecione `Run 'TelaLogin.main()'`.
