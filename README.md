@@ -3,7 +3,7 @@
 # <p align="center"><img src="src/img/logo.png" alt="Logo"></p>
 
 ### Trabalho final de LP e POO. 
-Trabalho final de LP e POO. Os arquivos .java estão na pasta "src", e as classes referentes à matéria de POO estão na pasta `src/POO `.
+Os arquivos .java estão na pasta "src", e as classes referentes à matéria de POO estão na pasta `src/POO `.
 
 ## Sumário
 
