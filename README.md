@@ -18,7 +18,7 @@
 ## Informações sobre o Projeto
 
 Este projeto é uma aplicação desktop desenvolvida para ser utilizada como um sistema de vendas de um restaurante. Ele foi criado para cadastrar clientes, permitir login, escolher produtos da vitrine e adicioná-los ao carrinho (ou removê-los), e realizar o pagamento do pedido.
-Obs: para acessar uma versão do projeto que funcione no terminal, utilize a pasta src/POO presente no repositório.
+Obs: para acessar uma versão do projeto que funcione no terminal, utilize a pasta `src/POO` presente no repositório.
 
 ## Tecnologias Utilizadas
 
