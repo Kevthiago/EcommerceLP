@@ -55,6 +55,7 @@ Siga os passos abaixo para configurar e executar o projeto:
 3. Instale as dependências:
     - No IntelliJ IDEA, adicione a biblioteca `sqlite-jdbc-3.42.0.0.jar` à estrutura do projeto.
     - Instale o banco de dados `SQLite` para configurar a conexão.
+    - Confira e configure a `URL`, `USER` e `SENHA` na classe `ConexaoBD` conforme necessário.
     - Sentença utilizada para criar a tabela:
 
      ![Script SQL](src/img/img.png)
